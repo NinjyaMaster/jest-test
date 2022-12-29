@@ -8,6 +8,7 @@ const Welcome = () => {
 
   return (
     <div>
+      <h1>Welcome</h1>
       {auth && <div>Hello {auth?.username}</div>}
       {!auth && <div>Hello Anonymous Goose</div>}
       {!isLoggedin && (
