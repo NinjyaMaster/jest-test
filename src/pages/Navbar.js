@@ -19,6 +19,11 @@ export default function Navbar() {
             Sample
           </Link>
         </li>
+        <li>
+          <Link to={`/useparam/5`} aria-label="useparam">
+            Use Param Test
+          </Link>
+        </li>
       </ul>
     </div>
   );
